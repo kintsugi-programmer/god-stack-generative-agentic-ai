@@ -171,6 +171,7 @@ This is not just another theory repo. By the end,we would **code, deploy, and sc
     - [The `operator` Module](#the-operator-module)
 - [Prompts](#prompts)
 
+---
 
 # 1 Agentic AI Developer Environment Setup
 
@@ -262,6 +263,7 @@ These extensions are highly recommended to install:
 
 These listed items are the major extensions needed as a Python developer.
 
+---
 
 # 2 Introduction to Python Programming and Tools
 
@@ -587,6 +589,8 @@ Python is super easy to learn.
 4. **Standard Library (STL):** Python has a huge, rich, and extensive set of standard libraries and open-source code written by generous programmers. This code is available for commercial use. This availability of built-in tools is a major reason for its popularity in **data science, machine learning, and AI**.
 5. **Multi-use/Flexibility:** Python is flexible and used for various applications, not just data science or terminal work. It can be used for **full-stack web apps, automation, data manipulation, CSVs, and machine learning**.
 6. **"Chai Level Happiness":** The instructor's most favorite reason is the joy and "Chai level happiness" that comes from writing code in the language.
+
+---
 
 # 3 Python Data Types
 
@@ -1117,6 +1121,8 @@ from operator import itemgetter
 ```
 
 The documentation describes `itemgetter` as returning "a callable object that fetches the given item from its operand". This utility is often seen in source codes and is used to sort based on a variety of steps.
+
+---
 
 # Prompts
 
