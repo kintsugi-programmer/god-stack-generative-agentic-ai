@@ -199,9 +199,14 @@ Python is mandatory for this course. The entire course is based on Python.
 *   **Installation Requirement:** Please make sure that Python is installed on the machine.
 *   **Installation Steps:** Installation is very simple; users can click the download button, click "next, next, next," and follow the on-screen instructions.
 *   **Version Check Example:** The presenter showed the installed version on their terminal:
-
+```bash
+python
 ```
-Python version 3.1, 3.2 installed
+```
+PS C:\Users\BaliKing> python
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
 ```
 
 ### 3. Required Python Knowledge
@@ -271,7 +276,7 @@ These listed items are the major extensions needed as a Python developer.
 
 ### Instructor Background and Teaching Style
 
-The instructor's name is **Hitesh**. He did engineering in electronics and communications, not computer science, demonstrating that anyone can learn to code. He has worked in the Python ecosystem, cybersecurity, iOS development, web development, databases, and JavaScript. He currently runs two startups, one of which serves around 22 million users, emphasizing his ability to scale things and write great quality software.
+The instructor's name is **Hitesh** & Instructor for Coachings & Corporate with 30 years of experience. He did engineering in electronics and communications, not computer science, demonstrating that anyone can learn to code. He has worked in the Python ecosystem, cybersecurity, iOS development, web development, databases, and JavaScript. He currently runs two startups, one of which serves around 22 million users, emphasizing his ability to scale things and write great quality software.
 
 His specialty is turning the toughest topic into the easiest one. He reads a lot of books about teaching mechanisms, how to deliver engaging content, and tech topics like Python and JavaScript.
 
@@ -285,14 +290,14 @@ The teaching style is **laid back** and not fast-paced, allowing the brain time 
 
 The instructor uses a mix of tools for explanation and coding.
 
-| Tool/Item | Purpose/Description | Citation |
-| :--- | :--- | :--- |
-| **VS Code** | The chosen code editor. | |
-| **Chai Theme** | A dark color theme created by the instructor. It makes the code look beautiful. Search for `chai theme` in extensions. | |
-| **Python Extensions (e.g., Pylance)** | Extensions that provide color codes and type hinting, helping users write code without typing everything manually. | |
-| **Warp** | A preferred terminal software, available on Mac, Windows, and Linux. | |
-| **Eraser** | A tool used to teach by drawing diagrams (like a whiteboard/blackboard), linking boxes and moving them. | |
-| **tldraw & Excalidraw** | Other diagramming tools used extensively by the instructor. | |
+| Tool/Item | Purpose/Description |
+| :--- | :--- |
+| **VS Code** | The chosen code editor. |
+| **Chai Theme** | A dark color theme created by the instructor. It makes the code look beautiful. Search for `chai theme` in extensions. |
+| **Python Extensions (e.g., Pylance)** | Extensions that provide color codes and type hinting, helping users write code without typing everything manually. |
+| **Warp** | A preferred terminal software, available on Mac, Windows, and Linux. |
+| **Eraser** | A tool used to teach by drawing diagrams (like a whiteboard/blackboard), linking boxes and moving them. |
+| **tldraw & Excalidraw** | Other diagramming tools used extensively by the instructor. |
 
 The instructor may switch visibility modes, sometimes appearing on screen for engagement, and other times switching entirely to the screen view for 100% focus.
 
@@ -317,7 +322,7 @@ The following steps outline the process of making tea:
 2. Plug in the kettle.
 3. Boil water.
 4. Get a clean cup or cups.
-5. Add T leaves and sugar to the cup (or boiling water).
+5. Add Tea leaves and sugar to the cup (or boiling water).
 6. Pour boiled water into the cup (and milk, if preferred).
 7. Stir and serve.
 
@@ -401,24 +406,25 @@ Python relies on **indentation**.
 **Conditional Logic (Example using Non-Pythonic Code):**
 The code can be read almost like English.
 ```python
+# false_code
 def makechai(): # Defines the "box"
-    if not kettle has water: # Checks if the condition is false
-        fill cattle # Executes if condition is true (no water)
+    if not kettle_has_water(): # Checks if the condition is false
+        fill_kettle() # Executes if condition is true (no water)
 
-    plug in the cattle # Another function/instruction
-    boil water # Another function/instruction
+    plug_in_the_kettle() # Another function/instruction
+    boil_water() # Another function/instruction
     
-    if not is cup clean?:
-        wash the cup
+    if not is_cup_clean():
+        wash_the_cup()
         # or pick another cup
         
-    add to cup(T leaves)
-    add to cup(sugar)
+    add_to_cup("tea_leaves")
+    add_to_cup("sugar")
     
-    pouring(to: pour, what: boiled water)
-    stir(cup)
+    pour("boiled_water")
+    stir("cup")
     
-    serve, chai
+    serve("chai")
     
 makechai() # Calls the function to start the process
 ```
@@ -442,6 +448,7 @@ This example demonstrates a `class` and the use of the initialization method (`_
 **Note:** This is an experience part; the user does not have to write this code.
 
 ```python
+# false_code
 class Chai:
     # This is the initialization method; it runs as soon as the factory is opened
     # It sets up the blueprint (e.g., default sweetness)
